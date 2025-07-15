@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<style>
+body {
+    background-color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+
+    
+
+    
+}
+</style>
+<head>
+  <meta charset="UTF-8">
+  <title>Desafio formulário</title>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <h1>Bem-vindos!</h1>
+  <p>Este é um exemplo de página HTML.</p>
+  <a href="https://www.example.com">Visite um site</a>
+  
+<form action="https://www.google.com/search" method="GET" target="_blank">
+    <label for="pesquisa">Pesquisar: </label>
+    
+    <input type="search" name="busca" size="20" maxlength="32" placeholder="Digite sua consulta ">
+    <input type="submit" value="Buscar"> 
+    <input type="reset" value="Apagar">
+
+</form>
+
+  
+</datalist>
+
+</body>
+
+</html>
